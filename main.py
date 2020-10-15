@@ -25,7 +25,8 @@ down = False
 frames = [helice1, gameover, damage]
 z = 0
 #musica
-pygame.mixer.music.load("data/ambiente.mp3")
+pygame.mixer.music.load("data/ambiente.ogg")
+pygame.mixer.music.set_volume(0.08)
 pygame.mixer.music.play(-1)
 def imagepack ():
     colisao1 = bird1
