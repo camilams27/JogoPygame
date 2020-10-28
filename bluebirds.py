@@ -11,12 +11,12 @@ class Blue(pygame.sprite.Sprite):
 
         self.rect.x = 1000 + random.randint(1, 570)
         self.rect.y = random.randint(2, 570)
-
+        #velocidade altera durante o percuso
         self.speed = 3 + random.random()*2
-
+    #passaros azuis vem de lugares aléatórios da parte direita da tela
     def update(self, *args):
         self.rect.x -= self.speed
-
+        #caso passe da tela, objeto eh excluido
         if self.rect.right < 0:
             self.kill()
 

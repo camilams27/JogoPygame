@@ -11,13 +11,12 @@ class Birds(pygame.sprite.Sprite):
 
         self.rect.x = 1000 + random.randint(1, 570)
         self.rect.y = random.randint(2, 570)
-
+        #velocidade do objeto
         self.speed = 5
-
+        #passaros vermelhos vem de Lugares aleatorios na parte direita da tela
     def update(self, *args):
-        # movimento dos passaros
         self.rect.x -= self.speed
-
+        #caso passe da tela, objeto eh excluido
         if self.rect.right < 0:
             self.kill()
 
