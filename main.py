@@ -13,12 +13,11 @@ pygame.init()
 #grupo de desenho e passaros
 drawGroup = pygame.sprite.Group()
 birdsGroup = pygame.sprite.Group()
-shotGroup = pygame.sprite.Group()
 starGroup = pygame.sprite.Group()
 
 #tela e imagens
 tela = pygame.display.set_mode((1000, 600))
-pygame.display.set_caption("jogo")
+pygame.display.set_caption("dangerous flight")
 papel = pygame.sprite.Sprite(drawGroup)
 papel.image = pygame.image.load("data/BG.png")
 papel.image = pygame.transform.scale(papel.image, [1000, 600])
