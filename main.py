@@ -10,12 +10,12 @@ from star import Star
 
 pygame.init()
 
-#grupo de desenho e passaros
+#grupo de desenhos: passaros e estrelas
 drawGroup = pygame.sprite.Group()
 birdsGroup = pygame.sprite.Group()
 starGroup = pygame.sprite.Group()
 
-#tela e imagens
+#tela e imagens do jogo
 tela = pygame.display.set_mode((1000, 600))
 pygame.display.set_caption("dangerous flight")
 papel = pygame.sprite.Sprite(drawGroup)
