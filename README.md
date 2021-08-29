@@ -11,10 +11,10 @@ O jogo foi feito por mim - Camila, e Gyovanna. Utilizando a biblioteca PyGame.
 O jogo consiste em mover o avião par apegar as estrelas e contabilizá-las como record, além disso, o jogador deve desviar dos passáros que vem aleatoriamente utilizando as setas do. 
 
 ## Layout
-![print 1](https://github.com/camilams27/Imagens-JogoPygame/blob/master/prints/print1.png?raw=true "Pagina-WEB-1")
+![print 1](https://github.com/camilams27/Imagens-JogoPygame/blob/master/prints/print1.png?raw=true "Jogo Dangerous flight")
 
 ## Layout Game Over
-![print 2](https://github.com/camilams27/Imagens-JogoPygame/blob/master/prints/print2.png?raw=true "Pagina-WEB-2")
+![print 2](https://github.com/camilams27/Imagens-JogoPygame/blob/master/prints/print2.png?raw=true "Game Over")
 
 ## Tecnologias utilizadas
 - Python
